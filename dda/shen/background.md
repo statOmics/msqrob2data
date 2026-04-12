@@ -1,0 +1,10 @@
+### Experimental context
+Publicly available spike-in study with PRIDE identifier PXD003881 (Shen et al. 2018). This dataset contains ground truth information about which proteins are differentially abundant, enabling us to objectively demonstrate the key aspects of differential proteomics data analysis and their implementation.
+The samples were synthetically constructed, starting from a trypsin-digested human background, hence human proteins are known to be constant across samples. E. coli lysates were spiked at five different concentrations (3%, 4.5%, 6%, 7.5% and 9% wt/wt). So the E. coli proteins are known to be differentially abundant, and we know exactly in what amount they differ. There are four replicates per spike-in condition. The samples were run on an Orbitrap Fusion mass spectrometer. Raw data files were processed with MaxQuant (version 1.6.1.0) using default search settings unless otherwise noted. Spectra were searched against the UniProtKB/SwissProt human and E. coli reference proteome databases (07/06/2018), concatenated with the default Maxquant contaminant database. Carbamidomethylation of Cystein was set as a fixed modification, and oxidation of Methionine and acetylation of the protein amino-terminus were allowed as variable modifications. In silico cleavage was set to use trypsin/P, allowing two miscleavages. Match between runs was also enabled using default settings. The resulting peptide-to-spectrum matches (PSMs) were filtered by MaxQuant at 1% FDR.
+
+### Data Source
+The data were reanalyzed by Sticker et al. (2020).
+
+### References
+Shen, Xiaomeng, Shichen Shen, Jun Li, Qiang Hu, Lei Nie, Chengjian Tu, Xue Wang, et al. 2018. “IonStar Enables High-Precision, Low-Missing-Data Proteomics Quantification in Large Biological Cohorts.” Proc. Natl. Acad. Sci. U. S. A. 115 (21): E4767–76.
+Sticker, Adriaan, Ludger Goeminne, Lennart Martens, and Lieven Clement. 2020. “Robust Summarization and Inference in Proteome-Wide Label-Free Quantification.” Mol. Cell. Proteomics 19 (7): 1209–19.

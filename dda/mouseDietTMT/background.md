@@ -1,0 +1,9 @@
+### Experimental context
+The data used in this vignette has been published by Plubell et al. (2017) (PXD005953). The objective of the experiment was to explore the impact of low-fat and high-fat diets on the proteomic content of adipose tissue in mice. It also assesses whether the duration of the diet may impact the results. The authors assigned twenty mice into four groups (5 mice per group) based on their diet, either low-fat (LF) or high-fat (HF), and the duration of the diet, which was classified as short (8 weeks) or long (18 weeks). Samples from the epididymal adipose tissue were extracted from each mice. The samples were then randomly distributed across three TMT 10-plex mixtures for analysis. In each mixture, two reference labels were used, each containing pooled samples that included a range of peptides from all the samples. Not all labels were used, leading to an unbalanced design. Each TMT 10-plex mixture was fractionated into nine parts, resulting in a total of 27 MS runs.
+
+### Data Source
+The data were reanalyzed by Huang et al. (2020) and have been deposited in the MSV000084264 MASSiVE repository.
+
+### References
+Huang, Ting, Meena Choi, Manuel Tzouros, Sabrina Golling, Nikhil Janak Pandya, Balazs Banfai, Tom Dunkley, and Olga Vitek. 2020. “MSstatsTMT: Statistical Detection of Differentially Abundant Proteins in Experiments with Isobaric Labeling and Multiple Mixtures.” Mol. Cell. Proteomics 19 (10): 1706–23.
+Plubell, Deanna L, Phillip A Wilmarth, Yuqi Zhao, Alexandra M Fenton, Jessica Minnier, Ashok P Reddy, John Klimek, Xia Yang, Larry L David, and Nathalie Pamir. 2017. “Extended Multiplexing of Tandem Mass Tags (TMT) Labeling Reveals Age and High Fat Diet Specific Proteome Changes in Mouse Epididymal Adipose Tissue.” Mol. Cell. Proteomics 16 (5): 873–90.
