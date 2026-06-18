@@ -1,7 +1,7 @@
-run	quantCols	treatment
-A7	Intensity 6A_7	A
-A8	Intensity 6A_8	A
-A9	Intensity 6A_9	A
-B7	Intensity 6B_7	B
-B8	Intensity 6B_8	B
-B9	Intensity 6B_9	B
+quantCols	sampleId	treatment
+Intensity.6A_7	A7	A
+Intensity.6A_8	A8	A
+Intensity.6A_9	A9	A
+Intensity.6B_7	B7	B
+Intensity.6B_8	B8	B
+Intensity.6B_9	B9	B
